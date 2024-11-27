@@ -1,0 +1,1910 @@
+[
+    [
+        {
+            "gemColor": "sirkel",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 55,
+                "y": 55,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-sirkel",
+                "frameKey": "Asset 67.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 16341163,
+            "blastColor": 16767982
+        },
+        {
+            "gemColor": "pil",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 165,
+                "y": 55,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-pil",
+                "frameKey": "Asset 80.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 6145145,
+            "blastColor": 13694425
+        },
+        {
+            "gemColor": "pil",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 275,
+                "y": 55,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-pil",
+                "frameKey": "Asset 80.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 6145145,
+            "blastColor": 13694425
+        },
+        {
+            "gemColor": "sirkel",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 385,
+                "y": 55,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-sirkel",
+                "frameKey": "Asset 67.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 16341163,
+            "blastColor": 16767982
+        },
+        {
+            "gemColor": "pil",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 495,
+                "y": 55,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-pil",
+                "frameKey": "Asset 80.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 6145145,
+            "blastColor": 13694425
+        },
+        {
+            "gemColor": "sirkel",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 605,
+                "y": 55,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-sirkel",
+                "frameKey": "Asset 67.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 16341163,
+            "blastColor": 16767982
+        },
+        {
+            "gemColor": "diagonal",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 715,
+                "y": 55,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-diagonal",
+                "frameKey": "Asset 57.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 16751700,
+            "blastColor": 16769223
+        }
+    ],
+    [
+        {
+            "gemColor": "sirkel",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 55,
+                "y": 165,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-sirkel",
+                "frameKey": "Asset 67.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 16341163,
+            "blastColor": 16767982
+        },
+        {
+            "gemColor": "pil",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 165,
+                "y": 165,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-pil",
+                "frameKey": "Asset 80.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 6145145,
+            "blastColor": 13694425
+        },
+        {
+            "gemColor": "diagonal",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 275,
+                "y": 165,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-diagonal",
+                "frameKey": "Asset 57.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 16751700,
+            "blastColor": 16769223
+        },
+        {
+            "gemColor": "firkant",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 385,
+                "y": 165,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-firkant",
+                "frameKey": "Asset 45.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 3518951,
+            "blastColor": 13954812
+        },
+        {
+            "gemColor": "sirkel",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 495,
+                "y": 165,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-sirkel",
+                "frameKey": "Asset 67.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 16341163,
+            "blastColor": 16767982
+        },
+        {
+            "gemColor": "pil",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 605,
+                "y": 165,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-pil",
+                "frameKey": "Asset 80.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 6145145,
+            "blastColor": 13694425
+        },
+        {
+            "gemColor": "firkant",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 715,
+                "y": 165,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-firkant",
+                "frameKey": "Asset 45.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 3518951,
+            "blastColor": 13954812
+        }
+    ],
+    [
+        {
+            "gemColor": "firkant",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 55,
+                "y": 275,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-firkant",
+                "frameKey": "Asset 45.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 3518951,
+            "blastColor": 13954812
+        },
+        {
+            "gemColor": "pil",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 165,
+                "y": 275,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-pil",
+                "frameKey": "Asset 80.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 6145145,
+            "blastColor": 13694425
+        },
+        {
+            "gemColor": "pil",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 275,
+                "y": 275,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-pil",
+                "frameKey": "Asset 80.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 6145145,
+            "blastColor": 13694425
+        },
+        {
+            "gemColor": "diagonal",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 385,
+                "y": 275,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-diagonal",
+                "frameKey": "Asset 57.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 16751700,
+            "blastColor": 16769223
+        },
+        {
+            "gemColor": "pil",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 495,
+                "y": 275,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-pil",
+                "frameKey": "Asset 80.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 6145145,
+            "blastColor": 13694425
+        },
+        {
+            "gemColor": "firkant",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 605,
+                "y": 275,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-firkant",
+                "frameKey": "Asset 45.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 3518951,
+            "blastColor": 13954812
+        },
+        {
+            "gemColor": "pil",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 715,
+                "y": 275,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-pil",
+                "frameKey": "Asset 80.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 6145145,
+            "blastColor": 13694425
+        }
+    ],
+    [
+        {
+            "gemColor": "diagonal",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 55,
+                "y": 385,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-diagonal",
+                "frameKey": "Asset 57.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 16751700,
+            "blastColor": 16769223
+        },
+        {
+            "gemColor": "diagonal",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 165,
+                "y": 385,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-diagonal",
+                "frameKey": "Asset 57.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 16751700,
+            "blastColor": 16769223
+        },
+        {
+            "gemColor": "diagonal",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 275,
+                "y": 385,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-diagonal",
+                "frameKey": "Asset 57.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 16751700,
+            "blastColor": 16769223
+        },
+        {
+            "gemColor": "diagonal",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 385,
+                "y": 385,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-diagonal",
+                "frameKey": "Asset 57.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 16751700,
+            "blastColor": 16769223
+        },
+        {
+            "gemColor": "diagonal",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 495,
+                "y": 385,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-diagonal",
+                "frameKey": "Asset 57.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 16751700,
+            "blastColor": 16769223
+        },
+        {
+            "gemColor": "diagonal",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 605,
+                "y": 385,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-diagonal",
+                "frameKey": "Asset 57.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 16751700,
+            "blastColor": 16769223
+        },
+        {
+            "gemColor": "pil",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 715,
+                "y": 385,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-pil",
+                "frameKey": "Asset 80.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 6145145,
+            "blastColor": 13694425
+        }
+    ],
+    [
+        {
+            "gemColor": "firkant",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 55,
+                "y": 495,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-firkant",
+                "frameKey": "Asset 45.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 3518951,
+            "blastColor": 13954812
+        },
+        {
+            "gemColor": "firkant",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 165,
+                "y": 495,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-firkant",
+                "frameKey": "Asset 45.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 3518951,
+            "blastColor": 13954812
+        },
+        {
+            "gemColor": "pil",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 275,
+                "y": 495,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-pil",
+                "frameKey": "Asset 80.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 6145145,
+            "blastColor": 13694425
+        },
+        {
+            "gemColor": "diagonal",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 385,
+                "y": 495,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-diagonal",
+                "frameKey": "Asset 57.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 16751700,
+            "blastColor": 16769223
+        },
+        {
+            "gemColor": "firkant",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 495,
+                "y": 495,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-firkant",
+                "frameKey": "Asset 45.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 3518951,
+            "blastColor": 13954812
+        },
+        {
+            "gemColor": "diagonal",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 605,
+                "y": 495,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-diagonal",
+                "frameKey": "Asset 57.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 16751700,
+            "blastColor": 16769223
+        },
+        {
+            "gemColor": "sirkel",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 715,
+                "y": 495,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-sirkel",
+                "frameKey": "Asset 67.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 16341163,
+            "blastColor": 16767982
+        }
+    ],
+    [
+        {
+            "gemColor": "pil",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 55,
+                "y": 605,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-pil",
+                "frameKey": "Asset 80.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 6145145,
+            "blastColor": 13694425
+        },
+        {
+            "gemColor": "firkant",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 165,
+                "y": 605,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-firkant",
+                "frameKey": "Asset 45.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 3518951,
+            "blastColor": 13954812
+        },
+        {
+            "gemColor": "firkant",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 275,
+                "y": 605,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-firkant",
+                "frameKey": "Asset 45.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 3518951,
+            "blastColor": 13954812
+        },
+        {
+            "gemColor": "pil",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 385,
+                "y": 605,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-pil",
+                "frameKey": "Asset 80.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 6145145,
+            "blastColor": 13694425
+        },
+        {
+            "gemColor": "pil",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 495,
+                "y": 605,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-pil",
+                "frameKey": "Asset 80.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 6145145,
+            "blastColor": 13694425
+        },
+        {
+            "gemColor": "firkant",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 605,
+                "y": 605,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-firkant",
+                "frameKey": "Asset 45.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 3518951,
+            "blastColor": 13954812
+        },
+        {
+            "gemColor": "firkant",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 715,
+                "y": 605,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-firkant",
+                "frameKey": "Asset 45.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 3518951,
+            "blastColor": 13954812
+        }
+    ],
+    [
+        {
+            "gemColor": "diagonal",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 55,
+                "y": 715,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-diagonal",
+                "frameKey": "Asset 57.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 16751700,
+            "blastColor": 16769223
+        },
+        {
+            "gemColor": "firkant",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 165,
+                "y": 715,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-firkant",
+                "frameKey": "Asset 45.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 3518951,
+            "blastColor": 13954812
+        },
+        {
+            "gemColor": "pil",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 275,
+                "y": 715,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-pil",
+                "frameKey": "Asset 80.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 6145145,
+            "blastColor": 13694425
+        },
+        {
+            "gemColor": "diagonal",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 385,
+                "y": 715,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-diagonal",
+                "frameKey": "Asset 57.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 16751700,
+            "blastColor": 16769223
+        },
+        {
+            "gemColor": "sirkel",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 495,
+                "y": 715,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-sirkel",
+                "frameKey": "Asset 67.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 16341163,
+            "blastColor": 16767982
+        },
+        {
+            "gemColor": "pil",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 605,
+                "y": 715,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-pil",
+                "frameKey": "Asset 80.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 6145145,
+            "blastColor": 13694425
+        },
+        {
+            "gemColor": "diagonal",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 715,
+                "y": 715,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-diagonal",
+                "frameKey": "Asset 57.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 16751700,
+            "blastColor": 16769223
+        }
+    ],
+    [
+        {
+            "gemColor": "firkant",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 55,
+                "y": 825,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-firkant",
+                "frameKey": "Asset 45.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 3518951,
+            "blastColor": 13954812
+        },
+        {
+            "gemColor": "sirkel",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 165,
+                "y": 825,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-sirkel",
+                "frameKey": "Asset 67.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 16341163,
+            "blastColor": 16767982
+        },
+        {
+            "gemColor": "sirkel",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 275,
+                "y": 825,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-sirkel",
+                "frameKey": "Asset 67.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 16341163,
+            "blastColor": 16767982
+        },
+        {
+            "gemColor": "diagonal",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 385,
+                "y": 825,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-diagonal",
+                "frameKey": "Asset 57.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 16751700,
+            "blastColor": 16769223
+        },
+        {
+            "gemColor": "firkant",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 495,
+                "y": 825,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-firkant",
+                "frameKey": "Asset 45.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 3518951,
+            "blastColor": 13954812
+        },
+        {
+            "gemColor": "diagonal",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 605,
+                "y": 825,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-diagonal",
+                "frameKey": "Asset 57.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 16751700,
+            "blastColor": 16769223
+        },
+        {
+            "gemColor": "sirkel",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 715,
+                "y": 825,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-sirkel",
+                "frameKey": "Asset 67.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 16341163,
+            "blastColor": 16767982
+        }
+    ],
+    [
+        {
+            "gemColor": "pil",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 55,
+                "y": 935,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-pil",
+                "frameKey": "Asset 80.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 6145145,
+            "blastColor": 13694425
+        },
+        {
+            "gemColor": "diagonal",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 165,
+                "y": 935,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-diagonal",
+                "frameKey": "Asset 57.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 16751700,
+            "blastColor": 16769223
+        },
+        {
+            "gemColor": "diagonal",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 275,
+                "y": 935,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-diagonal",
+                "frameKey": "Asset 57.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 16751700,
+            "blastColor": 16769223
+        },
+        {
+            "gemColor": "sirkel",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 385,
+                "y": 935,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-sirkel",
+                "frameKey": "Asset 67.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 16341163,
+            "blastColor": 16767982
+        },
+        {
+            "gemColor": "diagonal",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 495,
+                "y": 935,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-diagonal",
+                "frameKey": "Asset 57.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 16751700,
+            "blastColor": 16769223
+        },
+        {
+            "gemColor": "diagonal",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 605,
+                "y": 935,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-diagonal",
+                "frameKey": "Asset 57.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 16751700,
+            "blastColor": 16769223
+        },
+        {
+            "gemColor": "sirkel",
+            "sprite": {
+                "name": "",
+                "type": "Sprite",
+                "x": 715,
+                "y": 935,
+                "depth": 0,
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flipX": false,
+                "flipY": false,
+                "rotation": 0,
+                "alpha": 1,
+                "visible": true,
+                "blendMode": 0,
+                "textureKey": "ss-sirkel",
+                "frameKey": "Asset 67.png",
+                "data": {}
+            },
+            "isEmpty": false,
+            "tintColor": 16341163,
+            "blastColor": 16767982
+        }
+    ]
+]
