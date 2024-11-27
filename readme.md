@@ -1,8 +1,8 @@
 # NRK former - automatisk løser
 
-NRK former _"Har du blitt hekta?"_. Nei, eller tja...
+> NRK former: _"Har du blitt hekta?"_. Nei, eller tja...
 
-Program for å løse dagens brett, og få _"Best i Noreg"_ først! Programmet løser et vilkårlig størrelse brett `Høyde`x`Bredde` og finner løsningen med færrest mulig klikk.
+Program for å løse dagens brett, og få _"Best i Noreg"_ først!
 
 ## Optimaliseringer
 
