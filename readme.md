@@ -1,15 +1,18 @@
-# NRK former automatisk løser
+# NRK former - automatisk løser
 
 NRK former _"Har du blitt hekta?"_. Nei, eller tja...
 
 Program for å løse dagens brett, og få _"Best i Noreg"_ først! Programmet løser et vilkårlig størrelse brett `Høyde`x`Bredde` og finner løsningen med færrest mulig klikk.
 
-> [!IMPORTANT]  
-> Programmet spiser opp minnet veldig kjapt! Det er testet på en laptop med 16GB og hvis den ikke finner en løsning innen 40 sekuder, så bør du sette `heuristicTuning` variabelen litt høyere slik at den finner _en_ gyldig løsning kjappere.
+## Optimaliseringer
 
-## Hvordan?
+* Brettet's state representeres med 4 unsinged integeres, en for hver farge. Hvis en farge eksisterer i en posisjon (x, y) på brettet så setter vi bit (y\*7 + x) i fargen's state til 1. Dette gjøres får å redusere minnebruk, siden A* spiser opp minne veldig kjapt. Bonus: dette gjør noen operasjoner litt kjappere, f.eks, for å sjekke om brettet er ferdig kan man sjekke med binære opperasjoner `blue_state or green_state or pink_state or orange_state == 0`.
 
-Ikke noe AI, kun god gammeldags A*
+* Distansen til mål er den naturlige logaritmen av hvor mange mulige trekk som er mulig. (ikke helt optimalt, men det beste jeg kunne finne på)
+
+![graph_1](./assets/graph_1.png)
+
+_(`a` er en variabel for å justere hvor "lett" man ønsker kjøre pathfinding. Hvis man setter a til noe høyt så vil den overestimere distansen og finne en løsning, men ikke den beste. Trikset er å justere a, slik at distansen blir litt underestimert hvis man ønsker å finne beste løsning)_
 
 ## Test programmet
 
@@ -61,8 +64,3 @@ Solution sequence, len 13:
 11. (x:6, y:8)
 12. (x:4, y:8)
 ```
-
-## TODOs
-
-* Forbedre bruken av minnet
-* Forbedre estimeringen av distansen til mål
