@@ -2,7 +2,6 @@ package formerfast
 
 import (
 	"container/heap"
-	"fmt"
 	"math"
 	"sync"
 )
@@ -91,7 +90,6 @@ func SolveBoardUsingAStar(board *Board, maxThreads int, heuristicTuning float32)
 		default:
 			current := spq.Pop()
 
-			fmt.Println(current)
 			if current == nil {
 				isQueueEmpty := spq.Len() == 0
 				if !isQueueEmpty {
@@ -100,7 +98,6 @@ func SolveBoardUsingAStar(board *Board, maxThreads int, heuristicTuning float32)
 				wg.Wait() // wait for unfinnished threads, and check queue again
 				isQueueStillEmpty := spq.Len() == 0
 				// if queue is empty we did not find a solution
-				fmt.Println(isQueueStillEmpty)
 				if isQueueStillEmpty {
 					return nil
 				}

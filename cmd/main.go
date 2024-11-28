@@ -19,18 +19,24 @@ func main() {
 		log.Fatalf("Error loading board: %v", err)
 	}
 
-	board.PrintBoard()
-
 	// better to start high, then make it smaller. high ~ 6, low ~ 3
 	heuristicTuning := 4.0
-	solution := formerfast.SolveBoardUsingAStar(board, 8, float32(heuristicTuning))
-	fmt.Printf("\nSolution sequence, len %d:\n", len(solution))
+	numThreads := 8
+
+	fmt.Printf("[info] Distance tuning variable: %f\n", heuristicTuning)
+	fmt.Printf("[info] Number of threads: %d\n", numThreads)
+
+	board.PrintBoard()
+
+	solution := formerfast.SolveBoardUsingAStar(board, numThreads, float32(heuristicTuning))
+
+	fmt.Printf("\nFound solution with length: %d\n", len(solution))
 
 	// Apply the solution to verify
 	for i, pos := range solution {
-		board.RemoveBricksIterative(pos)
-		board.Gravity()
-		fmt.Printf("%d. (x: %d, y:%d)\n", i, pos%7, (pos / 7))
-		board.PrintBoard()
+		// board.RemoveBricksIterative(pos)
+		// board.Gravity()
+		fmt.Printf("click %d. (x: %d, y:%d)\n", i, pos%7, (pos / 7))
+		// board.PrintBoard()
 	}
 }
