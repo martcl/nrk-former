@@ -4,6 +4,7 @@ import (
 	"container/heap"
 	"fmt"
 	"math"
+	"sync"
 )
 
 type State struct {
@@ -15,18 +16,13 @@ type State struct {
 
 type PriorityQueue []*State
 
-func (pq PriorityQueue) Len() int {
-	return len(pq)
-}
+func (pq PriorityQueue) Len() int { return len(pq) }
 
 func (pq PriorityQueue) Less(i, j int) bool {
-	// Smaller Priority value means higher priority
 	return pq[i].Priority < pq[j].Priority
 }
 
-func (pq PriorityQueue) Swap(i, j int) {
-	pq[i], pq[j] = pq[j], pq[i]
-}
+func (pq PriorityQueue) Swap(i, j int) { pq[i], pq[j] = pq[j], pq[i] }
 
 func (pq *PriorityQueue) Push(x interface{}) {
 	*pq = append(*pq, x.(*State))
@@ -35,13 +31,41 @@ func (pq *PriorityQueue) Push(x interface{}) {
 func (pq *PriorityQueue) Pop() interface{} {
 	old := *pq
 	n := len(old)
-	item := old[n-1]
-	*pq = old[:n-1]
-	return item
+	state := old[n-1]
+	*pq = old[0 : n-1]
+	return state
 }
 
-func SolveBoardUsingAStar(board *Board, heuristicTuning float32) []uint8 {
-	pq := &PriorityQueue{}
+// Thread-safe priority queue
+type SafePriorityQueue struct {
+	pq    PriorityQueue
+	mutex sync.Mutex
+}
+
+func (spq *SafePriorityQueue) Len() int {
+	spq.mutex.Lock()
+	defer spq.mutex.Unlock()
+	return len(spq.pq)
+}
+
+func (spq *SafePriorityQueue) Push(state *State) {
+	spq.mutex.Lock()
+	heap.Push(&spq.pq, state)
+	spq.mutex.Unlock()
+}
+
+func (spq *SafePriorityQueue) Pop() *State {
+	spq.mutex.Lock()
+	defer spq.mutex.Unlock()
+	if len(spq.pq) > 0 {
+		return heap.Pop(&spq.pq).(*State)
+	}
+	return nil
+}
+
+func SolveBoardUsingAStar(board *Board, maxThreads int, heuristicTuning float32) []uint8 {
+	spq := &SafePriorityQueue{pq: make(PriorityQueue, 0)}
+	heap.Init(&spq.pq)
 
 	initialState := &State{
 		Board:    board.Copy(),
@@ -50,50 +74,78 @@ func SolveBoardUsingAStar(board *Board, heuristicTuning float32) []uint8 {
 		Priority: board.heuristic(heuristicTuning),
 	}
 
-	heap.Init(pq)
-	heap.Push(pq, initialState)
+	var wg sync.WaitGroup
+	var returnOnce sync.Once
 
-	i := 0
-	for pq.Len() > 0 {
-		current := heap.Pop(pq).(*State)
+	numThreadsSemephore := make(chan struct{}, maxThreads)
 
-		// Goal check: is the board empty?
-		if current.Board.isBoardEmpty() {
-			fmt.Printf("Solved with %d iterations", i)
-			return current.Moves
-		}
+	result := make(chan []uint8, 1)
+	done := make(chan struct{})
 
-		possibleClicks := current.Board.GetPossibleClicks()
+	spq.Push(initialState)
 
-		if i%10000 == 0 && i != 0 {
-			fmt.Printf("Iteration %d, moves: %d, estimate: %f, remaining: %d. Heapsize: %d\n", i, len(current.Moves), current.Estimate, len(possibleClicks), len(*pq))
-			current.Board.PrintBoard()
-		}
+	for {
+		select {
+		case <-done:
+			return <-result
+		default:
+			current := spq.Pop()
 
-		for _, pos := range possibleClicks {
-			nextBoard := current.Board.Copy()
-			nextBoard.RemoveBricksIterative(pos)
-			nextBoard.Gravity()
-
-			estimatedDistance := nextBoard.heuristic(heuristicTuning)
-
-			nextMoves := append([]uint8{}, current.Moves...)
-			nextMoves = append(nextMoves, pos)
-
-			nextState := &State{
-				Board:    nextBoard,
-				Moves:    nextMoves,
-				Estimate: estimatedDistance,
-				Priority: float32(len(nextMoves)) + estimatedDistance,
+			fmt.Println(current)
+			if current == nil {
+				isQueueEmpty := spq.Len() == 0
+				if !isQueueEmpty {
+					continue
+				}
+				wg.Wait() // wait for unfinnished threads, and check queue again
+				isQueueStillEmpty := spq.Len() == 0
+				// if queue is empty we did not find a solution
+				fmt.Println(isQueueStillEmpty)
+				if isQueueStillEmpty {
+					return nil
+				}
+				// We are consuming items to fast from the queue,
+				// and need to continue
+				continue
 			}
 
-			heap.Push(pq, nextState)
+			numThreadsSemephore <- struct{}{}
+			wg.Add(1)
+			go func(state *State) {
+				defer wg.Done()
+				defer func() { <-numThreadsSemephore }()
+
+				if state.Board.isBoardEmpty() {
+					result <- state.Moves
+					returnOnce.Do(func() { close(done) })
+					return
+				}
+
+				possibleClicks := state.Board.GetPossibleClicks()
+
+				for _, pos := range possibleClicks {
+					nextBoard := state.Board.Copy()
+					nextBoard.RemoveBricksIterative(pos)
+					nextBoard.Gravity()
+
+					estimatedDistance := nextBoard.heuristic(heuristicTuning)
+
+					nextMoves := append([]uint8{}, state.Moves...)
+					nextMoves = append(nextMoves, pos)
+
+					nextState := &State{
+						Board:    nextBoard,
+						Moves:    nextMoves,
+						Estimate: estimatedDistance,
+						Priority: float32(len(nextMoves)) + estimatedDistance,
+					}
+
+					spq.Push(nextState)
+				}
+			}(current)
 		}
 
-		i++
 	}
-
-	return nil
 }
 
 // Estimates amount of clicks needed to win the game from the current game state

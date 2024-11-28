@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	boardBytes, err := os.ReadFile("tests/27-11-2024.json")
+	boardBytes, err := os.ReadFile("tests/28-11-2024.json")
 	if err != nil {
 		log.Fatalf("Error reading file: %v", err)
 	}
@@ -21,8 +21,9 @@ func main() {
 
 	board.PrintBoard()
 
-	heuristicTuning := 5.0
-	solution := formerfast.SolveBoardUsingAStar(board, float32(heuristicTuning))
+	// better to start high, then make it smaller. high ~ 6, low ~ 3
+	heuristicTuning := 4.0
+	solution := formerfast.SolveBoardUsingAStar(board, 8, float32(heuristicTuning))
 	fmt.Printf("\nSolution sequence, len %d:\n", len(solution))
 
 	// Apply the solution to verify

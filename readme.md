@@ -8,6 +8,8 @@ Program for å løse dagens brett, og få _"Best i Noreg"_ først!
 
 * Brettet's state representeres med 4 unsinged integeres, en for hver farge. Hvis en farge eksisterer i en posisjon (x, y) på brettet så setter vi bit (y\*7 + x) i fargen's state til 1. Dette gjøres får å redusere minnebruk, siden A* spiser opp minne veldig kjapt. Bonus: dette gjør noen operasjoner litt kjappere, f.eks, for å sjekke om brettet er ferdig kan man sjekke med binære opperasjoner `blue_state or green_state or pink_state or orange_state == 0`.
 
+* Multithreading med en felles prioritetskø.
+
 * Distansen til mål er den naturlige logaritmen av hvor mange mulige trekk som er mulig. (ikke helt optimalt, men det beste jeg kunne finne på)
 
 ![graph_1](./assets/graph_1.png)
