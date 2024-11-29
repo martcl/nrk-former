@@ -2,26 +2,17 @@ package main
 
 import (
 	"fmt"
-	"log"
-	"os"
+	"time"
 
 	formerfast "github.com/martcl/nrk-former/pkg/former-fast"
 )
 
 func main() {
-	boardBytes, err := os.ReadFile("tests/28-11-2024.json")
-	if err != nil {
-		log.Fatalf("Error reading file: %v", err)
-	}
-
-	board, err := formerfast.LoadBoard(string(boardBytes))
-	if err != nil {
-		log.Fatalf("Error loading board: %v", err)
-	}
+	board := formerfast.CreateBoardFromDate(time.Now())
 
 	// better to start high, then make it smaller. high ~ 6, low ~ 3
-	heuristicTuning := 4.0
-	numThreads := 8
+	heuristicTuning := 3.0
+	numThreads := 12
 
 	fmt.Printf("[info] Distance tuning variable: %f\n", heuristicTuning)
 	fmt.Printf("[info] Number of threads: %d\n", numThreads)

@@ -12,6 +12,8 @@ Program for å løse dagens brett, og få _"Best i Noreg"_ først!
 
 * Distansen til mål er den naturlige logaritmen av hvor mange trekk som kan velges mellom. Ved mål vil mulige klikk være 0, og distansen blir også 0 (`ln(1)=0`). Formålet med estimatet er å fange observasjonen om at 25 mulige klikk er ganske likt unna mål som 20 mulige klikk, men 3 mulige klikk er veldig mye nærmere enn 7 mulige klikk. Observasjonen går ut på at sammenhengen med antall mulige klikk og distanse til mål ikke er linjær. Hvis noen har andre ideer til estimat, så er det bare å lage en issue.
 
+* Muligheten til å regne ut beste løsningen på morgendagens brett for å ha den klar 🧙‍♂️
+
 ![graph_1](./assets/graph_1.png)
 
 _(`a` er en variabel for å justere hvor "lett" man ønsker kjøre pathfinding. Hvis man setter a til noe høyt så vil den overestimere distansen og finne en løsning, men ikke den beste. Trikset er å justere a, slik at distansen blir litt underestimert hvis man ønsker å finne beste løsning)_
