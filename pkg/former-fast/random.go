@@ -8,20 +8,25 @@ import (
 )
 
 func CreateHashFunction() func(string) float64 {
-	var seed uint32 = 4022871197
+	var seed float64 = 4022871197
 
 	return func(input string) float64 {
 		for _, chr := range input {
-			seed += uint32(chr)
-			product := 0.02519603282416938 * float64(seed)
-			seed = uint32(product)
+			seed += float64(chr)
+			product := 0.02519603282416938 * seed
+
+			seed = float64(uint32(product))
 			product -= float64(seed)
+
 			product *= float64(seed)
-			seed = uint32(product)
+
+			seed = float64(uint32(product))
+
 			product -= float64(seed)
-			seed += uint32(product * 4294967296)
+			seed += float64(uint32(product * 4294967296))
+
 		}
-		return float64(seed) * 2.3283064365386963e-10
+		return float64(uint32(seed)) * 2.3283064365386963e-10
 	}
 }
 
